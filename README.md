@@ -10,5 +10,13 @@ This is a basic tutorial on the following things:
 5. Gemini-pro helps in providing text output when input as text is given.
 6. response.candidates gives the response which performed the best in terms of safety ratings.
 7. Gemini-pro-vision helps in proving the text in case of an Image content.
+8. The prompt can be generated after doing some generation configurations with parameters like candidate_count, stop sequences(ie. after which sentence / word response should be clipped),
+max_output_tokens ie. the maximum number of tokens that is required for a specific response,
+temperature ie. it determines the randomness /creativity for a particular reseponse.
+9.chat.history helps in retaining the history.
+10. Count tokens helps in finding the number of tokens/ words. each token is approx equal to 4 characters.
+11. Gemini also includes few embeddings model that are solely used for creating the numbers/vectors out of the words.
+12. Embeddings are nothing but the numeric/vector respresentation the words or sentences.Usage:embed_content
+13. For generation sepecific models ie. generate_content models can also be configured with certain safety settings that determine on the bases of category like harassment, sexually explicit and to what degrees. 
 
    
